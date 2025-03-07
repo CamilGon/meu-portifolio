@@ -12,17 +12,17 @@ function App() {
 
   return (
     <>
-      <div>
       <Header />
+    <div className='pages'>
       <Profile />
       <Skills />
       <Projects />
       <SocialPreview />
       <FloatingContact />
       <Summary />
-      </div>
-     
+    </div>
     </>
+   
   )
 }
 

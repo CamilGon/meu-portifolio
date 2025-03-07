@@ -17,8 +17,7 @@ function Summary() {
         <li>React Scroll para navegação suave</li>
         <li>Fetch API para integrar com o GitHub </li>
       </ul>
-      
-      <h3>Onde me encontrar</h3>
+    
       <div className="contact-links">
         <a href="https://github.com/CamilGon" target="_blank" rel="noopener noreferrer">
           <FaGithub size={24} /> GitHub

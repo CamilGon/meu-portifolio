@@ -4,16 +4,10 @@ import '../styles/Projects.css';
 function Projects() {
   const projects = [
     {
-      title: 'Meu Portfólio',
-      description: 'Um site pessoal criado com React para apresentar minhas habilidades e projetos.',
-      repoLink: 'https://github.com/CamilGon/camilagon-portifolio',
-      demoLink: 'https://seuportfolio.com'
-    },
-    {
       title: 'Paleta de cores',
       description: 'Este foi o meu primeiro projeto desenvolvido em JavaScript. Representa um ponto de partida significativo na minha trajetória e mesmo considerando possíveis melhorias, escolhi manter sua forma original para documentar a minha evolução.',
       repoLink: 'https://github.com/CamilGon/PixelArts',
-     
+      demoLink: 'https://camilgon.github.io/PixelArts/'
     },
     {
       title: 'Formulário de Avaliação',
