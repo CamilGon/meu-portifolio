@@ -45,3 +45,30 @@
   max-width: 600px;
 }
 
+@media (max-width: 480px) {
+  
+  .profile-name {
+    font-size: 1.2rem;
+  }
+
+  .profile-title {
+    font-size: 0.8rem;
+  }
+
+  .profile-description {
+    font-size: 0.85rem;
+    padding: 10px;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+  }
+
+  .summary {
+    padding: 10px;
+  }
+
+  .summary p {
+    font-size: 0.9rem;
+  }
+}

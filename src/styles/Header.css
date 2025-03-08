@@ -47,4 +47,56 @@
   color: #8e12f3;
 }
 
+@media (max-width: 768px) {
+  /* Ajustes para o Header */
+  .header {
+    padding: 15px;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+  }
+
+  /* Ajustes para o conteúdo */
+  .pages {
+    margin-top: 120px; /* Ajuste para não cobrir o conteúdo com o header fixo */
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-name {
+    font-size: 1.5rem;
+  }
+
+  .profile-title {
+    font-size: 0.9rem;
+  }
+
+  .profile-description {
+    font-size: 0.9rem;
+    max-width: 100%;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .soft-skills, .hard-skills {
+    width: 100%;
+  }
+}
+
 
