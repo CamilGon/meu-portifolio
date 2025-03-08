@@ -87,7 +87,6 @@
   transition: transform 0.3s ease;
 }
 
-/* Responsividade para telas pequenas (celulares) */
 @media (max-width: 600px) {
   .social-preview {
     padding: 40px 15px;
@@ -130,7 +129,6 @@
   }
 }
 
-/* Responsividade para telas médias (tablets) */
 @media (max-width: 1024px) {
   .social-preview h2 {
     font-size: 1.8rem;

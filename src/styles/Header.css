@@ -15,7 +15,7 @@
   padding: 10px;
   background-color: #000;
   color: #fff;
-  z-index: 1000; /* Garantir que o cabeçalho fique acima de outros conteúdos */
+  z-index: 1000; 
 }
 
 .logo h1 {
@@ -45,7 +45,7 @@
   color: #8e12f3;
 }
 
-/* Responsividade para telas pequenas (celulares) */
+
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
@@ -68,7 +68,7 @@
   }
 }
 
-/* Responsividade para telas médias (tablets) */
+
 @media (max-width: 1024px) {
   .logo h1 {
     font-size: 1.6rem;
