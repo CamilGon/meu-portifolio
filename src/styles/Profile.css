@@ -1,6 +1,6 @@
 .profile {
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 100px);
   padding: 70px 20px;
   text-align: center;
   color: #fff;
@@ -8,23 +8,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-
-.profile::before {
-  content: "";
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); 
-  z-index: 0;
-}
-
-.profile * {
-  position: relative;
-  z-index: 1; 
 }
 
 .infos-conteiner {
