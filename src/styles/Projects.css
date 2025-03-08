@@ -1,8 +1,13 @@
 .projects {
-  padding: 40px 20px;
+  width: 100%;
+  height: calc(100vh - 90px);
+  padding: 70px 20px;
   text-align: center;
   color: #fff;
-  background-color: #000;
+  background-image: url('../assets/Projetos.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .projects h2 {

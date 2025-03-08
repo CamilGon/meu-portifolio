@@ -25,7 +25,6 @@ function SocialPreview() {
         {githubData && (
           <div className="github-preview">
             <img src={githubData.avatar_url} alt="GitHub Avatar" className="github-avatar" />
-            <h3>{githubData.name}</h3>
             <p>{githubData.bio}</p>
             <p>💻 Repositórios públicos: {githubData.public_repos}</p>
             <a href={githubData.html_url} target="_blank" rel="noopener noreferrer">

@@ -1,8 +1,9 @@
 .skills {
-  padding: 40px 20px;
+  width: 100%;
+  height: calc(100vh - 80px);
+  padding: 70px 20px;
   text-align: center;
   color: #fff;
-  background-color: #000; /* Caso queira manter o fundo preto */
 }
 
 .skills h2 {
@@ -18,10 +19,11 @@
 }
 
 .skills-container > div {
-  flex: 1 1 300px;
   background: #1f1f1f;
   padding: 20px;
   border-radius: 8px;
+  width: 300px;
+  text-align: left;
 }
 
 .skills-container h3 {

@@ -1,18 +1,47 @@
 .profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: #000;
+  width: 100%;
+  height: calc(100vh - 90px);
   padding: 70px 20px;
+  text-align: center;
+  color: #fff;
+  background-image: url('../assets/planodefundo.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.profile::before {
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 0;
+}
+
+.profile * {
+  position: relative;
+  z-index: 1; 
+}
+
+.infos-conteiner {
+  display: flex;
+  float: none;
+  justify-content: center;
+  gap: 20px;
+
 }
 
 .profile-img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 20px;
+  border: 4px solid rgb(102, 101, 101);
 }
 
 .profile-name {
@@ -32,3 +61,4 @@
   color: #8b8989;
   max-width: 600px;
 }
+
