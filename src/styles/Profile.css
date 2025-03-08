@@ -12,10 +12,9 @@
 
 .infos-conteiner {
   display: flex;
-  float: none;
   justify-content: center;
   gap: 20px;
-
+  flex-wrap: wrap;
 }
 
 .profile-img {
@@ -43,32 +42,55 @@
   font-size: 1rem;
   color: #8b8989;
   max-width: 600px;
+  margin: 0 auto;
 }
 
-@media (max-width: 480px) {
-  
-  .profile-name {
-    font-size: 1.2rem;
+@media (max-width: 600px) {
+  .profile {
+    padding: 40px 15px;
   }
 
-  .profile-title {
-    font-size: 0.8rem;
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+
+  .profile-name {
+    font-size: 1.5rem;
+  }
+
+  .profile-title, .profile-description {
+    font-size: 0.9rem;
+  }
+
+  .infos-conteiner {
+    flex-direction: column;
+    gap: 10px;
   }
 
   .profile-description {
-    font-size: 0.85rem;
-    padding: 10px;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .profile-img {
+    width: 180px;
+    height: 180px;
   }
 
-  .navbar a {
-    font-size: 0.9rem;
+  .profile-name {
+    font-size: 1.8rem;
   }
 
-  .summary {
-    padding: 10px;
+  .profile-title {
+    font-size: 1rem;
   }
 
-  .summary p {
-    font-size: 0.9rem;
+  .profile-description {
+    font-size: 1rem;
   }
 }

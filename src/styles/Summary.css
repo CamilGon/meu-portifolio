@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
   height: 60px;
-  background-color: #000; 
+  background-color: #000;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -33,5 +33,43 @@
 }
 
 .contact-links a:hover {
-  color: #1e90ff; 
+  color: #1e90ff;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 15px 10px;
+  }
+
+  .footer p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .contact-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .contact-links a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 15px 15px;
+  }
+
+  .footer p {
+    font-size: 13px;
+  }
+
+  .contact-links a {
+    font-size: 13px;
+  }
 }

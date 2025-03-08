@@ -28,6 +28,11 @@
   border-radius: 8px;
   width: 300px;
   text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
 }
 
 .project-card h3 {
@@ -55,4 +60,61 @@
 
 .project-links a:hover {
   color: #fff;
+}
+
+
+@media (max-width: 600px) {
+  .projects {
+    padding: 50px 15px;
+  }
+
+  .projects h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .projects-container {
+    gap: 15px;
+  }
+
+  .project-card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .project-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+  }
+
+  .project-links a {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .projects h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+
+  .project-card {
+    width: 45%;
+  }
+
+  .project-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .project-card p {
+    font-size: 1rem;
+  }
+
+  .project-links a {
+    font-size: 1rem;
+  }
 }

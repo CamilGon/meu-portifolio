@@ -24,6 +24,11 @@
   border-radius: 8px;
   width: 300px;
   text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.skills-container > div:hover {
+  transform: scale(1.05);
 }
 
 .skills-container h3 {
@@ -39,4 +44,53 @@
 .skills-container li {
   margin: 5px 0;
   font-size: 1rem;
+}
+
+
+@media (max-width: 600px) {
+  .skills {
+    padding: 50px 15px;
+  }
+
+  .skills h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .skills-container {
+    gap: 15px;
+  }
+
+  .skills-container > div {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .skills-container h3 {
+    font-size: 1.3rem;
+  }
+
+  .skills-container li {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .skills h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+
+  .skills-container > div {
+    width: 45%;
+  }
+
+  .skills-container h3 {
+    font-size: 1.5rem;
+  }
+
+  .skills-container li {
+    font-size: 1rem;
+  }
 }

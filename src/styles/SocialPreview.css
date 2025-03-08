@@ -30,6 +30,12 @@
   border-radius: 8px;
   width: 300px;
   text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.github-preview:hover,
+.linkedin-preview:hover {
+  transform: scale(1.05);
 }
 
 .github-avatar,
@@ -38,7 +44,7 @@
   height: 100px;
   border-radius: 50%;
   margin-bottom: 10px;
-  border: 3px solid#8e12f3;
+  border: 3px solid #8e12f3;
 }
 
 .github-preview h3,
@@ -73,9 +79,87 @@
 
 .linkedin-photo {
   margin-top: 10px;
+
 }
 
 .linkedin-avatar:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease;
+}
+
+/* Responsividade para telas pequenas (celulares) */
+@media (max-width: 600px) {
+  .social-preview {
+    padding: 40px 15px;
+  }
+
+  .social-preview h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .social-container {
+    gap: 20px;
+  }
+
+  .github-preview,
+  .linkedin-preview {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .github-avatar,
+  .linkedin-avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .github-preview h3,
+  .linkedin-preview h3 {
+    font-size: 1.2rem;
+  }
+
+  .github-preview p,
+  .linkedin-preview p {
+    font-size: 0.9rem;
+  }
+
+  .github-preview a,
+  .linkedin-preview a {
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsividade para telas médias (tablets) */
+@media (max-width: 1024px) {
+  .social-preview h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+
+  .github-preview,
+  .linkedin-preview {
+    width: 45%;
+  }
+
+  .github-avatar,
+  .linkedin-avatar {
+    width: 90px;
+    height: 90px;
+  }
+
+  .github-preview h3,
+  .linkedin-preview h3 {
+    font-size: 1.5rem;
+  }
+
+  .github-preview p,
+  .linkedin-preview p {
+    font-size: 1rem;
+  }
+
+  .github-preview a,
+  .linkedin-preview a {
+    font-size: 1rem;
+  }
 }
