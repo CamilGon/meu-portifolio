@@ -11,10 +11,10 @@ function Profile() {
     <>
     <div className="profile">
       <section className="infos-conteiner">
+        <div className="profile-card">
         <div className="infos-img">
           <img src={profilePic} alt="Foto de perfil" className="profile-img" />
         </div>
-        <div className="infos-dados">
           <h1 className="profile-name">Camila Gonçalves</h1>
           <h2 className="profile-title">Analista de Sistemas/Desenvolvedora</h2>
           <p className="profile-description">
