@@ -15,8 +15,8 @@ function App() {
         <Projects />
         <SocialPreview />
         <FloatingContact />
-      </div>
       <Summary />
+      </div>
     </div>
   );
 }

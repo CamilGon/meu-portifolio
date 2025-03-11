@@ -129,35 +129,3 @@
   }
 }
 
-@media (max-width: 1024px) {
-  .social-preview h2 {
-    font-size: 1.8rem;
-    margin-bottom: 25px;
-  }
-
-  .github-preview,
-  .linkedin-preview {
-    width: 45%;
-  }
-
-  .github-avatar,
-  .linkedin-avatar {
-    width: 90px;
-    height: 90px;
-  }
-
-  .github-preview h3,
-  .linkedin-preview h3 {
-    font-size: 1.5rem;
-  }
-
-  .github-preview p,
-  .linkedin-preview p {
-    font-size: 1rem;
-  }
-
-  .github-preview a,
-  .linkedin-preview a {
-    font-size: 1rem;
-  }
-}
